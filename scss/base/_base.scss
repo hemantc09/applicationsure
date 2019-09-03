@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+    // base font size is 10px
+    font-size: 62.5%;
+}
+
+body {
+	background-color: #fff;
+	color: #6A6A6A;
+	font-family: 'Montserrat', 'Arial', 'sans-serif';
+	font-weight: 300;
+    /*consider setup font size 16px which is 62.5% base is 10*/
+	font-size: 1.6rem;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+
+/*-------------------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*-------------------------------------------------*/
+/*centered row */
+.row {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+
+h1{
+	font-size: 5rem;
+}
+
+/*---------- LINKS ----------*/
+a:link,
+a:visited {
+    color: $main-text-color;
+    text-decoration: none;
+    transition: border-bottom 0.2s, color 0.5s;
+}
+
+a:hover,
+a:active {
+	color: $btn-color;
+}

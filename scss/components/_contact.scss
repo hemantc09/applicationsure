@@ -1,0 +1,46 @@
+.section-contact {
+    background-image: url('/dist/resources/img/startup.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.contact-section-box {
+    text-align: center;
+}
+
+.form-content {
+    display: inline-block;
+}
+
+.contact-form input {
+    padding: 2%;
+    margin-bottom: 2rem;
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #DADFE9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9BA9BB;
+    width: 100%;
+    max-width: 50.7rem;
+}
+
+.contact-form input:last-child {
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+.form-content p {
+    margin-bottom: 2rem;
+    padding-top: 20%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    color: #FFFFFF;
+}
+

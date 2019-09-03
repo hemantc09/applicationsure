@@ -1,0 +1,33 @@
+.singnup-btn {
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 1.5rem 4rem;
+}
+
+
+.btn {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.get-started-btn {
+    background: $btn-color;
+    border-radius: 5px;
+    padding: 2rem 8rem;
+    color: $main-text-color;
+}
+
+.get-started-btn:hover {
+    background: white;
+    border-radius: 5px;
+    color: $title-darkblue;
+}
+.contact-form .submit-btn {
+    background: $btn-color;
+    border-radius: 5px;
+    border: transparent;
+    padding: 2rem 8rem;
+    color: $main-text-color;
+    outline: none;
+}

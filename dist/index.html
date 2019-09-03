@@ -1,13 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/main.css" />
-    <title>PDP Desktop - footlocker</title>
-  </head>
-  <body>
-    hi
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="/dist/vendors/css/grid.css">
+		<link rel="stylesheet" type="text/css" href="/dist/vendors/css/normalize.css">
+		<link rel="stylesheet" href="/dist/css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="/dist/resources/css/queries.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+		<title>Sure</title>
+	</head>
+	<body>
+		<header class="row">
+			<div class="row">
+				<nav class="sticky">	
+					<div class="main-nav">
+						<div class="logo-div">
+							<a class="logo"><img src="./resources/img/SURE-white-logo.svg" alt="sure-logo"></a>
+						</div>
+						
+						<ul class="main-nav-left">
+							<li><a href="#">Products</a></li>
+							<li><a href="#">Supports</a></li>
+							<li><a href="#">Claims</a></li>
+						</ul>
+									
+						<ul class="main-nav-right">
+							<li><a href="#">DownloadApp</a></li>
+							<li><a href="#">Login</a></li>
+							<li><a href="#" class="singnup-btn">Sign Up</a></li>
+						</ul>
+					</div>
+					<a class="mobile-nav-icon js--mobile-nav-icon"><ion-icon name="menu"></ion-icon></a>
+
+					<div class="main-nav-mobile">
+							<div class="logo-div">
+									<a class=""><img src="./resources/img/SURE-blue-logo.png" alt="sure-logo"></a>
+							</div>
+							<div class="nav-mobile js--nav-mobile">
+								<ul>
+									<li><a href="#">Products</a></li>
+									<li><a href="#">Supports</a></li>
+									<li><a href="#">Claims</a></li>
+									<li><a href="#">DownloadApp</a></li>
+									<li><a href="#">Login</a></li>
+									<li><a href="#" class="">Sign Up</a></li>
+								</ul>
+							</div>
+					</div>
+				</nav>
+			</div>
+			<div class="hero-content">
+				<div class="hero-textbox">
+					<h1 class="sure-you">Sure + You.</h1>
+						<p class="secondary-hero-text">Complement your core business and <b>increase customer
+						lifetime value</b> <br> with integrated offers from top-tier insurance carriers.</p>
+						<a class="btn get-started-btn" href="#">Get Started</a>
+						<div class="hero-center-image"><img src="./resources/img/hero-laptop.png" alt="hero-laptop"></div>
+					</div>
+			</div>
+		</header>
+
+		<section class="section-clients">
+			<div class="row client-section-row">
+				<div class="clients">
+					<div class="col span-1-of-4 box">
+						<img src="./resources/img/chubb-logo.svg" alt="chubb-logo">
+					</div>
+					<div class="col span-1-of-4 box">
+							<img src="./resources/img/Nationwide-logo.svg" alt="Nationwide-logo">
+					</div>
+					<div class="col span-1-of-4 box">
+							<img src="./resources/img/QBE-logo.svg" alt="QBE-logo">
+					</div>
+					<div class="col span-1-of-4 box">
+						<img src="./resources/img/Assurant-logo.svg" alt="Assurant-logo">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-solutions">
+		<div class="row">
+			<div class="col span-1-of-2 solution-box">
+				<h1 class="solution-title">Choose the<br>solution that&#x27;s<br>
+				right for your<br>business.</h1>
+			</div>
+			<div class="col span-1-of-2 solution-box">
+				<div class="solution-items">
+					<div>
+						<div class="solution"><img src="./resources/img/code.svg" alt="code"></div>
+						<p>API</p>	
+					</div>
+					<div>
+						<p>The Sure API is a set of RESTful endpoints that allow you to customize the look and feel for a truly native experience.</p>
+					</div>
+				</div>
+				<div class="solution-items">
+					<div>
+						<div class="solution"><img src="./resources/img/iframe.svg" alt="iframe"></div>
+						<p>iFrame</p>
+					</div>
+					<div>
+						<p>The iFrame solution allows for easy integration - simply place a line of code to embed an insurance form anywhere on your site. </p>
+					</div>
+				</div>
+				<div class="solution-items">
+					<div>
+						<div class="solution"><img src="./resources/img/whiteLabel.svg" alt="whiteLabel"></div>
+						<p>White Label</p>
+					</div>
+					<div>
+						<p>Sure will build and host a branded page, which you can link to from a webpage or an email.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+
+		<section class="row section-partners">
+			<div class="row">
+					<h1 class="partners-title">Our partners come in all shapes and sizes,<br> just like our policies.</h1>
+			</div>
+
+			<div class="row">
+				<div class="col span-1-of-2 span-partners">
+					<div class="partners-items">
+						<div class="partners"><img src="./resources/img/Pet-Icon.svg" alt="pet-icon"></div>
+						<div><p>Pet Coverage</p></div>
+						<div>
+							<p>Includes preventative, accident, and comprehensive</p>
+						</div>
+					</div>	
+				</div>
+
+				<div class="col span-1-of-2 span-partners">
+					<div class="partners-items">
+						<div class="partners"><img src="./resources/img/travel-icon.svg" alt="travel-icon"></div>
+						<p>Travel Coverage</p>
+						<div>
+							<p>Includes baggage, car, rental, leisure, and flight policies</p>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col span-1-of-2">
+					<div class="partners-items">
+						<div class="partners"><img src="./resources/img/Property-Icon.svg" alt="property-icon"></div>
+						<p>Property Coverage</p>
+						<div>
+							<p>Includes weddings, and special events policies</p>
+						</div>
+					</div>	
+				</div>
+
+				<div class="col span-1-of-2">
+					<div class="partners-items">
+						<div class="partners"><img src="./resources/img/Event-Icon.svg" alt="event-icon"></div>
+						<p>Catastrophic Event Coverage</p>
+						<div>
+							<p>Includes weddings, and special events policies</p>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="row home-coverage-row">
+				<div class="col home-coverage-box">
+					<div class="partners-items">
+						<div class="partners"><img src="./resources/img/Home-Icon.svg" alt="home-icon"></div>
+						<p>Home Coverage</p>
+						<div>
+							<p>Includes renters, eviction , and homeowners policies</p>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+
+		<section class="row section-contact">
+			<div class="contact-section-box">
+				<div class="form-content">
+					<div><p>Contact our partnerships team today.</p></div>
+					<div>
+						<form action="#" method="post" class="contact-form">
+							<input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+							<input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+							<input type="text" name="company" id="company" placeholder="Company" required>
+							<input type="text" name="work-email" id="work-email" placeholder="Work Email" required>
+							<input  class="btn submit-btn" type="submit" value="Submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+            <div class="row">
+                <div class="footer-container">
+                    <ul class="footer-nav">
+						<li><a class=""><img src="./resources/img/SURE-blue-logo.png" alt="sure-logo"></a></li>
+                        <li><a href="#" class="copyright">&#9400; 2017-2018 Sure Inc.<br>All rights reserved.</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms of Service</a></li>
+						<li><a href="#">Licenses</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Help Center</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li>
+							<a href="#"><ion-icon name="logo-twitter"></ion-icon>
+							<a href="#"><ion-icon name="logo-facebook"></ion-icon>
+							<a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+						</li>
+					</ul>
+                </div> 
+			</div> 
+        </footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    	<script src="/dist/resources/js/scripts.js"></script>
+	</body>
 </html>

@@ -1,0 +1,115 @@
+header {
+    background-image: url('/dist/resources/img/hero-bg-top.png');
+    background-repeat: no-repeat;
+}
+
+.hero-center-image  img{
+    width: 100%;
+    max-width: 90rem;;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*main nav*/
+.main-nav {
+    padding-top: 2rem;
+    box-sizing: border-box;
+    height: 7rem;
+    list-style: none;
+}
+
+
+.logo img {
+    float: left;
+    margin-left: 10rem;
+    width: auto;
+    height: 3.5rem;
+} 
+
+
+.main-nav li {
+    margin-top: 2rem;
+    display: inline-block;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%; 
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: $btn-color;
+}  
+
+.main-nav-left {
+    float: left;
+    // margin-left: 0%;
+    text-align: center;
+}
+
+.main-nav-right {
+    float: right;
+    margin-right: 7%;
+}
+
+/*mobile nav*/
+
+.mobile-nav-icon {
+    float: right;
+    // margin-top: 1rem;
+    cursor: pointer;
+    display: none;
+    margin-right: 5%;
+   
+}
+
+.mobile-nav-icon ion-icon {
+    padding-top: 2rem;
+    color: $title-darkblue;
+    font-size: 200%;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/*header content*/
+.hero-content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.hero-textbox {
+    margin: 0 auto;
+}
+
+.sure-you {
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5rem;
+    color: $main-text-color;
+    margin-bottom: 2rem;
+}
+
+.secondary-hero-text {
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 4rem;
+    color: $main-text-color;
+}
+
+.hero-center-image {
+    margin: 6rem;
+}

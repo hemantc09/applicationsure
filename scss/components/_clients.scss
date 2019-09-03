@@ -1,0 +1,44 @@
+
+.client-section-row {
+    background-color: $client-section-bgcolor;
+    text-align: center;
+}
+
+.clients {
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+.clients .box {
+    line-height: 10rem;
+ }
+
+ .clients .box:nth-child(2) {
+    line-height: 10rem;
+ }
+
+.box img {
+    overflow: hidden;
+    vertical-align: middle;
+    max-width:100%; 
+    width:100%;
+}
+
+
+.clients .box:nth-child(2) img {
+    margin-left: 1rem;
+}
+
+.clients .box:nth-child(3) img  {
+    height: 5rem;
+}
+
+
+.icon {
+    fill: currentColor;
+}
+
+#pattern0 {
+    fill: blue;
+}

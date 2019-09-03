@@ -1,0 +1,55 @@
+.solution-box {
+    margin-top: 8rem;   
+}
+
+.solution-box:first-child {
+    text-align: left;
+    padding-left: 10%;
+}
+
+.solution-box:last-child {
+    padding-right: 10%;
+    padding-top: 2%;
+}
+.solution-title {
+    font-weight: 300;
+    font-size: 6.2rem;
+    line-height: 7.6rem;
+    letter-spacing: 0.1rem;
+    color: $title-darkblue;
+    margin: 3%;
+}
+
+
+.solution-items {
+    margin-bottom: 1rem;
+}
+
+.solution-items .solution {
+    float: left;
+    padding-bottom: 0.5rem;
+}
+
+.solution-items p {
+    margin-left: 15%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.90rem;
+    letter-spacing: 0.0.74rem;
+    color: $text-color-gray;
+}
+
+.solution-items div:last-child p {
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 15%;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.0.74rem;
+    color: $text-color-gray;
+
+}
+
+
